@@ -55,7 +55,7 @@ export async function sendTx(
 
   newTx.add(tx);
 
-  let versionedTx = await buildVersionedTx(connection, payer, newTx, commitment);
+  let versionedTx = await buildVersionedTx(connection, payer, newTx, "finalized");
   versionedTx.sign(signers);
 
   try {
