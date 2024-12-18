@@ -1,8 +1,7 @@
 {
-  "name": "pumpdotfun-sdk",
+  "name": "deevade-pumpdotfun-sdk",
   "version": "1.3.2",
-  "description": "A simple SDK for interacting with pumpdotfun",
-  
+  "description": "DeEvade fork: A simple SDK for interacting with pumpdotfun",
   "module": "./dist/esm/index.js",
   "main": "./dist/cjs/index.js",
   "browser": "./dist/browser/index.js",
@@ -41,7 +40,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^4.18.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.2"
+    "typescript": "^5.7.2"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.1",
